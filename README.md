@@ -2,8 +2,9 @@
 Un scrapper qui enregistre en format CSV.
 
 
-##Lib utilisé à installer
+## Lib utilisé à installer
 
+(Il est conseillé d'utiliser un docker ou env pour pouvoir executer)
 ``` bash
 pip install requests
 ```
