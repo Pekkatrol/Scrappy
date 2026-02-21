@@ -13,6 +13,7 @@ Il faut avoir python d'installé.
 
 ``` bash
 python3 -m venv venv
+source venv/bin/activate
 ```
 ### Pour installer les libs
 
