@@ -14,6 +14,7 @@ Il faut avoir python d'installé.
 ``` bash
 python3 -m venv venv
 ```
+### Pour installer les libs
 
 ``` bash
 pip install requests
