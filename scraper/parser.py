@@ -10,10 +10,14 @@ def parse_quote(html):
     for item in soup.find_all("div", class_="quote"):
         quote = item.find(class_="text").text.strip()
         author = item.find(class_="author").text.strip()
+        text = item.find(class_="text").text.strip()
+        tags = item.find(class_="tags").text.strip()
 
         quotes.append({
             "quote": quote,
-            "author": author
+            "author": author,
+            "text": text,
+            "tags": tags
         })
     
     return quotes
