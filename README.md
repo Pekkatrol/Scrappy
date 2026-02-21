@@ -1,5 +1,5 @@
 # Scrappy
-Un scrapper qui enregistre en format CSV.
+Un scrapper qui enregistre en format CSV. Scrappy est un outil de scrap pour quote pour le moment.
 
 # Minimum requis
 
