@@ -33,3 +33,9 @@ python3 main.py [URL] [NAME_OUTPUT]
 ```
 URL étant l'url du site que vous voulez examiner et tirer les informations.
 NAME_OUTPUT est le nom du fichier en .csv qui sera créé dans le dossier data.
+
+## Pour tester
+
+``` bash
+python3 main.py http://quotes.toscrape.com quotes
+```
